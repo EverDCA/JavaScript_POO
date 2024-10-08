@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.h1{
+    text-align: left;
+    font-size: 18px;
+    animation: good 3s infinite ease;
+}
+
+
+@keyframes good {
+    0%{color:#7fce00;
+        }
+            
+    25%{color:#00dc79;
+        }
+        
+    50%{color:#00ff00d1;
+        }
+
+    75%{color:#00ffc3;
+        }
+
+    100%{color:#7fce00;
+        }
+}
+.h2{
+    text-align: left;
+    font-size: 18px;
+    animation: bad 3s infinite ease;
+}
+
+@keyframes bad {
+    0%{color:#ce0700;
+        }
+            
+    25%{color:#dc4d00;
+        }
+        
+    50%{color:#ff6f00d1;
+        }
+
+    75%{color:#ffa200;
+        }
+
+    100%{color:#ce0700;
+        }
+    }
+/* document.write(`<h1 class="hoal">Array edades actualizado: [${edades}]<h1>`);
+document.write(`<h2 class="hoal">Valor minimo del array: ${min}<h2>`); */
+
+
+
+
